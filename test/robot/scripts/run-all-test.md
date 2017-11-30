@@ -4,7 +4,7 @@
 
 ### Go to root folder
     cd `dirname $0`
-    cd ../../
+    cd ../../../
 
 ### Run all tests
     web/scripts/start-web-server.md

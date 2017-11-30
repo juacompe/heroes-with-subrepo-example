@@ -2,3 +2,6 @@
 
 I want to use git submodules to track between api and web versions.
 
+### Run All Tests
+
+    test/robot/scripts/run-all-test.md
