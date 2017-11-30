@@ -6,13 +6,18 @@
     cd `dirname $0`
     cd ../../
 
-### Start web server
+#### [TODO] Use local built images from <https://stackoverflow.com/questions/40144138/pull-a-local-image-to-run-a-pod-in-kubernetes>
+    #eval $(minikube docker-env)
 
+### Build web container
     cd web
-    ng serve &
+    npm run ng build
+    docker build -t juacompe/heroweb .
+
+### Start web server
+    kubectl create -f web_pod.yml
 
 ### Run all tests
-
     pybot .
 
 ### Stop web server (Still don't know how)
