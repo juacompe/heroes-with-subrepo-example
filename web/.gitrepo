@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:juacompe/heroes-ng-web.git
+	branch = master
+	commit = 92b8e84356bf6b572dfb72a7115c0fea8cb0a9f3
+	parent = 9136b252cf7ccae0c1ecd7b7c8e8bf5a76e480a4
+	cmdver = 0.3.1
