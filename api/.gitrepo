@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:juacompe/heroesapi.git
+	branch = master
+	commit = b8bfe64b75b99203ddb0769423ca3e991633c06c
+	parent = 37425d1f99ba835041f6856491e35dae1b4fa571
+	cmdver = 0.3.1
